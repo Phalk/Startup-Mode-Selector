@@ -37,7 +37,7 @@ This Python script creates a graphical interface using PyQt5 that allows the use
 ## Converting to Executable
 To convert the script to a single executable file (`.exe`) without a console window, use PyInstaller with the following command:
 ```bash
-pyinstaller --noconsole --onefile startup_mode_selector.py
+pyinstaller --noconsole --onefile start.py
 ```
 - `--noconsole`: Prevents the console window from appearing when running the .exe.
 - `--onefile`: Packages the script and its dependencies into a single executable file.
