@@ -1,4 +1,4 @@
-# Startup Mode Selector
+# Console Mode Startup
 
 This Python script uses PyQt5 to automatically launch applications based on the resolution of the screen where it is executed. It reads a configuration file (`config.ini`) to determine which applications to launch for a specific screen resolution (e.g., `1920x1080`). If the detected resolution is not listed in `config.ini`, it falls back to a default `[other]` section. The script runs without user interaction, launching applications immediately upon execution.
 
